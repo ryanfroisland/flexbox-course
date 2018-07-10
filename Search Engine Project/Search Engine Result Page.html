@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>searchResults</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <style>
+    .container {
+        font-family: 'Lato', sans-serif;
+    }
+    .logo_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .logo{
+        margin-top: 20px;
+        width: 40px;
+    }
+   
+    .search_bar_wrapper {
+        display:flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #999999;
+    }
+
+    .search_button {
+        color:#999999;
+        border: solid 2px whitesmoke;
+    }
+   
+    .search_bar {
+        font-size: 20px;
+        border: solid 2px whitesmoke;
+    }
+
+    .content_wrapper {
+        margin-left:100px;
+        color:gray;
+    }
+
+    .javascript{
+        color:blue;
+        margin-bottom: 10px;
+        font-size: 10px
+    }
+
+    .post {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .post_content_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post_content{
+
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo_wrapper">
+            <img class="logo" src="/home/ryan/Code/CSS-Grid-Container-Project-Images/ds_circle_logo.png" alt="">
+        </div>
+        <div class="search_bar_wrapper">
+            <a class="search_button" href="file:///home/ryan/Code/Search%20Engine%20Result%20Page.html">
+                <i class="fa fa-search" aria-hidden="true" ></i>
+            </a>
+            <input type="text" class ="search_bar" placeholder="Search DailySmarty">
+        </div>
+        <div class="content_wrapper">
+            <div class="javascript">JavaScript</div>
+            <div class="post">Guide to rendering posts on a Google Map in Rails</div>
+            <div class="post_content_wrapper">
+                <div class="post_content">a;ldkfj;alsdjfa;lsdkfja;lsdkfjal;sdfjal;sdkjfal;dkfja;ldkfj</div>
+                <div class="post_content">a;ldkfj;alsdjfa;lsdkfja;lsdkfjal;sdfjal;sdkjfal;dkfja;ldkfj</div>
+                <div class="post_content">a;ldkfj;alsdjfa;lsdkfja;lsdkfjal;sdfjal;sdkjfal;dkfja;ldkfj</div>
+                <div class="post_content">a;ldkfj;alsdjfa;lsdkfja;lsdkfjal;sdfjal;sdkjfal;dkfja;ldkfj</div>
+            </div>
+            <div class="javascript">JavaScript</div>
+            <div class="post">Guide to rendering posts on a Google Map in Rails</div>
+            <div class="javascript">JavaScript</div>
+            <div class="post">Guide to rendering posts on a Google Map in Rails</div>
+            <div class="javascript">JavaScript</div>
+            <div class="post">Guide to rendering posts on a Google Map in Rails</div>
+            <div class="javascript">JavaScript</div>
+            <div class="post">Guide to rendering posts on a Google Map in Rails</div>
+        </div>
+    </div>
+</body>
+</html>

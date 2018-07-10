@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<style>
+    .container {
+        font-family: 'Lato', sans-serif;
+    }
+    .logo_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .logo{
+        margin-top: 80px;
+        width: 60px;
+    }
+   
+    .search_bar_wrapper {
+        display:flex;
+        align-items: center;
+        margin: 100px;
+        color: #999999;
+    }
+
+    .search_button {
+        color:#999999;
+        border: solid 2px whitesmoke;
+    }
+   
+    .search_bar {
+        font-size: 20px;
+        border: solid 2px whitesmoke;
+    }
+
+    .recent{
+        color:blue;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .post_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 100px;
+        font-size: 15px;
+        color:gray;
+    }
+
+    .javascript{
+        font-size: 10px;
+        color:#999999;
+    }
+
+     @media (max-width: 48em){
+         .post_wrapper {
+            grid-template-columns: 1fr;
+            grid-gap: 50px
+         }
+     }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo_wrapper">
+            <img class="logo" src="/home/ryan/Code/CSS-Grid-Container-Project-Images/ds_circle_logo.png" alt="">
+        </div>
+        <div class="search_bar_wrapper">
+            <a class="search_button" href="file:///home/ryan/Code/Search%20Engine%20Result%20Page.html">
+                <i class="fa fa-search" aria-hidden="true" ></i>
+            </a>
+            <input type="text" class ="search_bar" placeholder="Search DailySmarty">
+        </div>
+        <div class="footer">
+            <div class="recent">Recent Posts</div>
+            <div class="post_wrapper">
+                <div class="posts">My awesome Post 
+                    <div class="javascript">JavaScript</div>
+                </div>
+                <div class="posts">My awesome Post 
+                    <div class="javascript">JavaScript</div>
+                </div>
+                <div class="posts"> 
+                    <div>My awesome Post</div> 
+                    <div class="javascript">JavaScript</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
